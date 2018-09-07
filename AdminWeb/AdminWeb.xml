@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminWeb</name>
+    </assembly>
+    <members>
+        <member name="P:AdminWeb.AdminSettings.SecurityKey">
+            <summary>
+            秘钥
+            </summary>
+        </member>
+        <member name="P:AdminWeb.AdminSettings.AdminLoginName">
+            <summary>
+            后台用户名
+            </summary>
+        </member>
+        <member name="P:AdminWeb.AdminSettings.AdminPassword">
+            <summary>
+            后台密码
+            </summary>
+        </member>
+        <member name="M:AdminWeb.Controllers.AccountController.Login(AdminWeb.ViewModel.LoginViewModel)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AdminWeb.Infrastructure.Exceptions.ExamDomainException">
+            <summary>
+            Exception type for app exceptions
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.BaseSetting.TypeTimeSpan1">
+            <summary>
+            一比高下每组时间
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.BaseSetting.TypeTimeSpan2">
+            <summary>
+            争分夺秒每题时间
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.BaseSetting.TypeTimeSpan3">
+            <summary>
+            狭路相逢每题时间
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.BaseSetting.TypeTimeSpan4">
+            <summary>
+            绝地反击每题时间
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.BaseSetting.PartTimeSpan">
+            <summary>
+            参与时间
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.Problem.ProblemType">
+            <summary>
+            题目类型（1、争分夺秒 2、一比高下 3、狭路相逢）
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.Problem.ProblemSubType">
+            <summary>
+            争分夺秒中为5题一组，其他不区分
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.Problem.QuestionNumber">
+            <summary>
+            每组的题号
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.User.UserName">
+            <summary>
+            登录为手机号码，密码也为手机号码
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.User.IsEngineer">
+            <summary>
+            是否造价工程师(1、是 0、否)
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.UserProblemScore.ProblemID">
+            <summary>
+            预先导入？
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.UserProblemScore.ProblemType">
+            <summary>
+            题目类型（1、争分夺秒 2、一比高下 3、狭路相逢）
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.UserProblemScore.ProblemSubType">
+            <summary>
+            争分夺秒中为5题一组，其他不区分
+            </summary>
+        </member>
+        <member name="P:AdminWeb.Models.UserProblemScore.QuestionNumber">
+            <summary>
+            每组的题号
+            </summary>
+        </member>
+        <member name="P:AdminWeb.ViewModel.LoginViewModel.username">
+            <summary>
+            手机号码？
+            </summary>
+        </member>
+        <member name="P:AdminWeb.ViewModel.LoginViewModel.password">
+            <summary>
+            密码手机号码？
+            </summary>
+        </member>
+    </members>
+</doc>
